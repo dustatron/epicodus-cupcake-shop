@@ -1,5 +1,5 @@
 html {
-    height: 120%;
+    height: auto;
     position: relative;
     background-image: linear-gradient(to right bottom, #ca19c2, #c93bcb, #c951d3, #c963da, #c973e0, #dd75d6, #ed78cc, #fa7ec3, #ff81a5, #ff8c87, #ff9d6f, #fbb05f);;
 }
@@ -24,6 +24,7 @@ h1 {
 
 .copy {
     text-align: center;
+    font-weight: bolder;
 }
 
 .cp-box {
@@ -35,4 +36,18 @@ h1 {
 
 .cp-box--img {
     max-width: 200px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+}
+
+.flashy {
+    font-size: 35px;
+    color: red;
+}
+
+.best {
+    font-size: 35px;
 }
